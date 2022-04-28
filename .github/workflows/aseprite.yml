@@ -116,7 +116,7 @@ jobs:
         echo "::set-output name=action_tag::$(lastversion aseprite/aseprite)"
       id: links
     - name: Clone aseprite source
-      run: |
+      run: | 
         git clone --recursive https://github.com/aseprite/aseprite.git aseprite
     - name: Download compiled skia
       run: |
