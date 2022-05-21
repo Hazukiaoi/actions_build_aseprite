@@ -152,5 +152,5 @@ jobs:
     - name: Upload macos artifact
       uses: actions/upload-artifact@v2
       with:
-          path: Aseprite-mac-x64.zip
+          path: Aseprite-mac-x64.zip 
 
